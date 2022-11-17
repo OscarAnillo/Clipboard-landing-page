@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "image":"images/icon-blacklist.svg",
+        "title":"Create blacklists",
+        "paragraph":"Ensure sensitive information never makes its way to your clipboard by excluding certain sources."
+    },
+    {
+        "id":2,
+        "image":"images/icon-text.svg",
+        "title":"Plain text snippets",
+        "paragraph":"Remove unwanted formatting from copied text for a consistent look."
+    },
+    {
+        "id":3,
+        "image":"images/icon-preview.svg",
+        "title":"Sneak preview",
+        "paragraph":"Quick preview of all snippets on your Clipboard for easy access."
+    }
+]

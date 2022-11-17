@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +7,190 @@
 
 .App {
   text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-image: url("/public/images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+
+/* HeaderComponent */
+.header-div {
+  padding-top: 120px;
+}
+.header-div img {
+  padding-bottom:  45px;
+}
+.header-div h1 {
+  color: hsl(210, 10%, 33%);
+  font-size: 2.1rem;
+  font-weight: 600;
+  padding-bottom: .8em;
+}
+.header-div p {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 1.6em;
+  padding-bottom: 55px;
+  margin: auto;
+  width: 91%;
+}
+.header-div .green-btn {
+  border: none;
+  border-radius: 40px;
+  background: hsl(171, 66%, 44%);
+  color: #fff;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1.1em 0;
+  width: 100%;
+  margin-bottom: 1.5em;
+  box-shadow: 1px 1px 3px hsl(171, 66%, 44%);
+}
+
+.header-div .blue-btn {
+  border: none;
+  border-radius: 40px;
+  background: hsl(233, 100%, 69%);
+  color: #fff;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1.1em 0;
+  width: 100%;
+  box-shadow: 1px 1px 3px hsl(233, 100%, 69%);
+}
+
+/* KeepTrack */
+.keep-track-section {
+  /* border: 1px solid red; */
+  padding-top: 7.5em;
+}
+.keep-track-section h1 {
+  color: hsl(210, 10%, 33%);
+  font-size: 1.75rem;
+  padding-bottom: 1em;
+}
+.keep-track-section .main-text {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 1.6em;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5em;
+}
+.keep-track-row {
+  display: block;
+}
+.keep-track-row > div {
+  /* border: 1px solid red; */
+  margin-bottom: 4em;
+}
+.inner-row-div {
+  margin: 2em 0;
+}
+.inner-row-div h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  padding-bottom: .6em;
+}
+.inner-row-div p {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 1.6rem;
+  width: 90%;
+  margin: auto;
+}
+
+/* AccessClipboard */
+.access-section {
+  /* border: 1px solid red; */
+  padding-top: 8em;
+}
+.access-section .access-title {
+  color: hsl(210, 10%, 33%);
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding-bottom: .8em;
+}
+.access-section .access-text {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 1.6rem;
+  width: 90%;
+  margin: auto;
+}
+.access-img {
+  /* border: 1px solid red; */
+  padding: 4em 0 6em 0;
+}
+
+/* ProductComponent */ 
+.product-section {
+  margin-top: 100px;
+}
+.map-div {
+  /* border: 1px solid red; */
+  margin-bottom: 2em;
+}
+.map-div img {
+  padding-bottom: 2.5em;
+}
+.map-div h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 700;
+  padding-bottom: .5em;
+}
+.map-div p {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6em;
+}
+
+/* BrandComponent */
+.brand {
+  padding: 2em 0 5em 0;
+}
+.brand div {
+  margin: 5em 0;
+}
+
+/* Bottom-section */
+.bottom-section {
+  padding-top: 0em;
+  padding-bottom: 8em;
+}
+.bottom-section .header-div {
+  padding-top: 0;
+}
+
+/* FooterComponent */
+.footer {
+  background: rgb(245, 246, 248);
+  padding: 3em 0;
+}
+.footer-logo {
+  width: 13%;
+  margin-bottom: 1em;
+}
+.footer div {
+  margin: 1em 0;
+}
+.footer div p {
+  color: hsl(210, 10%, 33%);
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin: 1.5em 0;
+}
+.socials {
+  padding: 2em 0;
+}
+.socials img {
+  margin:  0 1em;
 }
