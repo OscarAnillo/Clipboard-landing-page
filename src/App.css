@@ -17,6 +17,9 @@
   width: 90%;
   margin: auto;
 }
+img {
+  max-width: 100%;
+}
 
 /* HeaderComponent */
 .header-div {
@@ -34,6 +37,7 @@
 .header-div p {
   color: hsl(201, 11%, 66%);
   font-weight: 400;
+  line-height: 1.6em;
   padding-bottom: 55px;
   margin: auto;
   width: 91%;
@@ -46,7 +50,7 @@
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
-  padding: 1.3em 0;
+  padding: 1.1em 0;
   width: 100%;
   margin-bottom: 1.5em;
   box-shadow: 1px 1px 3px hsl(171, 66%, 44%);
@@ -60,7 +64,47 @@
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
-  padding: 1.3em 0;
+  padding: 1.1em 0;
   width: 100%;
   box-shadow: 1px 1px 3px hsl(233, 100%, 69%);
+}
+
+/* KeepTrack */
+.keep-track-section {
+  /* border: 1px solid red; */
+  padding-top: 7.5em;
+}
+.keep-track-section h1 {
+  color: hsl(210, 10%, 33%);
+  font-size: 1.75rem;
+  padding-bottom: 1em;
+}
+.keep-track-section .main-text {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 1.6em;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5em;
+}
+.keep-track-row {
+  display: block;
+}
+.keep-track-row > div {
+  /* border: 1px solid red; */
+  margin-bottom: 4em;
+}
+.inner-row-div {
+  margin: 2em 0;
+}
+.inner-row-div h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  padding-bottom: .6em;
+}
+.inner-row-div p {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  width: 90%;
+  margin: auto;
 }
