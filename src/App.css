@@ -11,6 +11,7 @@
   background-image: url("/public/images/bg-header-mobile.png");
   background-repeat: no-repeat;
   background-size: contain;
+  overflow: hidden;
 }
 .container {
   width: 90%;
@@ -193,4 +194,218 @@ img {
 }
 .socials img {
   margin:  0 1em;
+}
+
+
+@media(min-width: 1000px) {
+  .App {
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url("/public/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .container {
+    max-width: 1100px;
+  }
+
+  /* HeaderComponent */
+  .header-div {
+    padding-top: 125px;
+  }
+  .header-div img {
+    padding-bottom: 75px;
+  }
+  .header-div h1 {
+    font-size: 3rem;
+    padding-bottom: .6em;
+  }
+  .header-div p {
+    font-size: 1.3rem;
+    padding-bottom: 53px;
+    width: 65%;
+  }
+  .header-div .green-btn {
+    width: 20.5%;
+    margin-bottom: 0;
+    margin-right: .5em;
+    box-shadow: 1px 1px 3px hsl(171, 66%, 44%);
+  }
+
+  .header-div .blue-btn {
+    border: none;
+    border-radius: 40px;
+    background: hsl(233, 100%, 69%);
+    color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1.1em 0;
+    margin-left: .5em;
+    width: 20.5%;
+    box-shadow: 1px 1px 3px hsl(233, 100%, 69%);
+  }
+
+  
+  /* KeepTrack */
+  .keep-track-section {
+    padding-top: 10em;
+  }
+  .keep-track-section h1 {
+    font-size: 2rem;
+  }
+  .keep-track-section .main-text {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 5em;
+  }
+  .keep-track-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    position: relative;
+  }
+  .keep-track-row > div {
+    width: 100%;
+  }
+  .keep-track-row > div:nth-child(1) {
+    margin-bottom: 0em;
+    position: absolute;
+    left: -39%;
+  }
+  .keep-track-row > div:nth-child(2) {
+    position: relative;
+    right: -45%;
+    width: 100%;
+  }
+  .inner-row-div {
+    margin: 2em 0;
+  }
+  .inner-row-div h2 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    padding-bottom: .6em;
+  }
+  .inner-row-div p {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    width: 45%;
+    margin: 0;
+    padding-bottom: 1em;
+  }
+
+  /* AccessClipboard */
+  .access-section {
+    /* border: 1px solid red; */
+    padding-top: 9em;
+  }
+  .access-section .access-title {
+    font-size: 2.5rem;
+    padding-bottom: .6em;
+  }
+  .access-section .access-text {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    width: 70%;
+    margin: auto;
+  }
+  .access-img {
+    /* border: 1px solid red; */
+    padding: 7em 0 11.3em 0;
+  }
+
+  
+  /* ProductComponent */ 
+  .product-section {
+    margin-top: 100px;
+  }
+  .product-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .product-row > div {
+    width: 100%;
+  }
+  .map-div {
+    /* border: 1px solid red; */
+    margin-bottom: 2em;
+  }
+  .map-div img {
+    padding-bottom: 2.5em;
+  }
+  .map-div h2 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 700;
+    padding-bottom: .5em;
+  }
+  .map-div p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.6em;
+    width: 95%;
+    margin: auto;
+  }
+
+  .brand {
+    padding: 2em 0 5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand div {
+    margin: 5em 0;
+  }
+
+  /* Bottom-section */
+  .bottom-section {
+    padding-top: 0em;
+    padding-bottom: 8em;
+  }
+  .bottom-section .header-div {
+    padding-top: 0;
+  }
+  .bottom-section .header-div p {
+    width: 75%;
+  }
+  /* FooterComponent */
+  .footer {
+    background: rgb(245, 246, 248);
+    padding: 2em 0;
+    text-align: left;
+  }
+  .footer section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+  }
+  .footer-logo {
+    width: 50%;
+    margin-bottom: 0em;
+    margin-top: 1.5em;
+  }
+  .footer div {
+    margin: 1em 0;
+  }
+  .footer div p {
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 1.5em 0;
+  }
+  .socials {
+    padding: 2em 0;
+  }
+  .socials img {
+    margin:  0 1em;
+  }
+
 }
