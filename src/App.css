@@ -10,8 +10,7 @@
   font-family: 'Bai Jamjuree', sans-serif;
   background-image: url("/public/images/bg-header-mobile.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+  background-size: contain;
 }
 .container {
   width: 90%;
@@ -26,7 +25,7 @@ img {
   padding-top: 120px;
 }
 .header-div img {
-  padding-bottom:  75px;
+  padding-bottom:  45px;
 }
 .header-div h1 {
   color: hsl(210, 10%, 33%);
@@ -131,4 +130,25 @@ img {
 .access-img {
   /* border: 1px solid red; */
   padding: 4em 0 6em 0;
+}
+
+/* ProductComponent */ 
+.product-section {
+  margin-top: 100px;
+}
+.map-div {
+  /* border: 1px solid red; */
+  margin-bottom: 2em;
+}
+.map-div img {
+  padding-bottom: 2.5em;
+}
+.map-div h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 700;
+  padding-bottom: .5em;
+}
+.map-div p {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6em;
 }
