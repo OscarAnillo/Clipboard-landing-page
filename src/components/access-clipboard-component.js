@@ -4,7 +4,7 @@ export default function AccessClipboard() {
       <div>
         <h1 className="access-title">Access Clipboard Anywhere</h1>
         <p className="access-text">
-          Wheter you're on the go, or at your computer, you can access all your
+          Whether you're on the go, or at your computer, you can access all your
           Clipboard snippets in a few simple clicks.
         </p>
       </div>

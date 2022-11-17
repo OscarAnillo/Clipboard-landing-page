@@ -11,6 +11,9 @@ export default function BrandComponent() {
         <img src="images/logo-microsoft.png" alt="" />
       </div>
       <div>
+        <img src="images/logo-hp.png" alt="" />
+      </div>
+      <div>
         <img src="images/logo-vector-graphics.png" alt="" />
       </div>
     </div>
