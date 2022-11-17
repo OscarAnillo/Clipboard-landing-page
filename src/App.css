@@ -105,6 +105,30 @@ img {
 .inner-row-div p {
   color: hsl(201, 11%, 66%);
   font-weight: 400;
+  line-height: 1.6rem;
   width: 90%;
   margin: auto;
+}
+
+/* AccessClipboard */
+.access-section {
+  /* border: 1px solid red; */
+  padding-top: 8em;
+}
+.access-section .access-title {
+  color: hsl(210, 10%, 33%);
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding-bottom: .8em;
+}
+.access-section .access-text {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 1.6rem;
+  width: 90%;
+  margin: auto;
+}
+.access-img {
+  /* border: 1px solid red; */
+  padding: 4em 0 6em 0;
 }

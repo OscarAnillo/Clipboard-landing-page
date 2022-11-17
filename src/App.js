@@ -1,7 +1,8 @@
 import HeaderComponent from "./components/header-component";
+import KeepTrack from "./components/keep-track-component";
+import AccessClipboard from "./components/access-clipboard-component";
 
 import "./App.css";
-import KeepTrack from "./components/keep-track-component";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="container">
         <HeaderComponent />
         <KeepTrack />
+        <AccessClipboard />
       </div>
     </div>
   );
