@@ -1,15 +1,19 @@
-export default function HeaderComponent() {
+export default function HeaderComponent({
+  className,
+  image,
+  title,
+  paragraph,
+  btnTxtOne,
+  btnTxtTwo,
+}) {
   return (
-    <section className="header-section">
+    <section className={className}>
       <div className="header-div">
-        <img src="images/logo.svg" alt="" />
-        <h1>A history of everything you copy</h1>
-        <p>
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices.
-        </p>
-        <button className="green-btn">Download for iOS</button>
-        <button className="blue-btn">Download for Mac</button>
+        <img src={image} alt="" />
+        <h1>{title}</h1>
+        <p>{paragraph}</p>
+        <button className="green-btn">{btnTxtOne}</button>
+        <button className="blue-btn">{btnTxtTwo}</button>
       </div>
     </section>
   );
