@@ -15,7 +15,7 @@ export default function AccessClipboard() {
         duration: 1,
         scrollTrigger: {
           trigger: ".access-section",
-          toggleActions: "restart pause resume reset",
+          toggleActions: "restart none none pause",
         },
       },
       {
@@ -24,7 +24,7 @@ export default function AccessClipboard() {
         duration: 1,
         scrollTrigger: {
           trigger: ".access-section",
-          toggleActions: "restart pause resume reset",
+          toggleActions: "restart none none pause",
         },
       }
     );
@@ -36,7 +36,7 @@ export default function AccessClipboard() {
         duration: 1,
         scrollTrigger: {
           trigger: ".access-section",
-          toggleActions: "restart pause resume reset",
+          toggleActions: "restart none none pause",
         },
       },
       {
@@ -45,7 +45,7 @@ export default function AccessClipboard() {
         duration: 1,
         scrollTrigger: {
           trigger: ".access-section",
-          toggleActions: "restart pause resume reset",
+          toggleActions: "restart none none pause",
         },
       }
     );

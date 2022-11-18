@@ -11,21 +11,24 @@ export default function BrandComponent() {
     gsap.fromTo(
       ".brand",
       {
+        opacity: 0,
         x: 300,
-        duration: 2,
+        duration: 1.5,
         ease: "back",
         scrollTrigger: {
           trigger: ".brand",
-          toggleActions: "restart pause resume reset",
+          toggleActions: "restart none none pause",
+          start: "20% top",
         },
       },
       {
+        opacity: 1,
         x: 0,
-        duration: 2,
+        duration: 1.5,
         ease: "back",
         scrollTrigger: {
           trigger: ".brand",
-          toggleActions: "restart pause resume reset",
+          toggleActions: "restart none none pause",
         },
       }
     );

@@ -10,23 +10,26 @@ export default function ProductComponent() {
 
   useEffect(() => {
     gsap.fromTo(
-      ".product-section",
+      ".product-row",
       {
+        opacity: 0,
         x: -300,
         duration: 1,
         ease: "back",
         scrollTrigger: {
-          trigger: ".product-section",
-          toggleActions: "restart pause resume reset",
+          trigger: ".product-row",
+          toggleActions: "restart none none pause",
+          start: "20% top",
         },
       },
       {
+        opacity: 1,
         x: 0,
         duration: 1,
         ease: "back",
         scrollTrigger: {
-          trigger: ".product-section",
-          toggleActions: "restart pause resume reset",
+          trigger: ".product-row",
+          toggleActions: "restart none none pause",
         },
       }
     );
