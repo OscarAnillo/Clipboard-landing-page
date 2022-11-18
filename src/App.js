@@ -1,11 +1,11 @@
 import HeaderComponent from "./components/header-component";
 import KeepTrack from "./components/keep-track-component";
 import AccessClipboard from "./components/access-clipboard-component";
-
-import "./App.css";
 import ProductComponent from "./components/product-component";
 import BrandComponent from "./components/brand-component";
 import FooterComponent from "./components/footer-component";
+
+import "./App.css";
 
 function App() {
   return (

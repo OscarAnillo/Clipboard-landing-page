@@ -1,4 +1,22 @@
+import { useEffect } from "react";
+import { gsap } from "gsap";
+
 export default function KeepTrack() {
+  const tl = gsap.timeline();
+
+  useEffect(() => {
+    tl.fromTo(
+      ".keep-track-section h1",
+      { opacity: 0, y: 100, duration: 0.5, delay: 2.5, ease: "back" },
+      { opacity: 1, y: 0, duration: 0.5, delay: 2.5, ease: "back" }
+    );
+    tl.fromTo(
+      ".main-text",
+      { opacity: 0, y: 100, duration: 1, ease: "back" },
+      { opacity: 1, y: 0, duration: 1, ease: "back" }
+    );
+    //eslint-disable-next-line
+  }, []);
   return (
     <section className="keep-track-section">
       <div>
